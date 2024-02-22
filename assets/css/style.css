@@ -1,0 +1,38 @@
+:root{
+    --firstColor:#6e6e73;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-400{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.font-500{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.font-700{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.bg-hero{
+    background-color: #f5f5f7;
+}
+.text-gray{
+    color: var(--firstColor);
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .card {
+    transition: transform 0.5s;
+  }
+  .text-decoration{
+    text-decoration: none;
+  }
+  .text-style{
+    list-style: none;
+  }

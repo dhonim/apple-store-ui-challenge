@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AppleStore UI Challenge</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="bg-hero">
+
+     <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-hero">
+        <div class="container-fluid">
+          <a class="navbar-brand font-700 d-flex align-items-center  ms-lg-5" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M17.05 20.28c-.98.95-2.05.8-3.08.35c-1.09-.46-2.09-.48-3.24 0c-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8c1.18-.24 2.31-.93 3.57-.84c1.51.12 2.65.72 3.4 1.8c-3.12 1.87-2.38 5.98.48 7.13c-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25c.29 2.58-2.34 4.5-3.74 4.25"
+              />
+            </svg>
+            <span class="ps-2">Apple Store</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto font-400">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" href="./mac.html">Mac</a>
+              <a class="nav-link" href="./iphone.html">iPhone</a>            
+              <a class="nav-link" href="./watch.html">Watch</a>
+              <a class="nav-link" href="./about.html">About</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- banner -->
+    <section>
+       <div class="col-sm-6 p-5">
+        <h1 class="font-500 text-gray display-5"><span class="text-black">Store.</span> The best way to buy the products you love.</h1>
+       </div>
+       <div class="row">
+        <div class="col-6 col-sm-2 ms-auto">
+            <a href="./mac.html" class="text-decoration">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/mac.png" class="img-fluid mb-2" alt="mac">
+                        <span class="font-500 ">Mac</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 col-sm-2 mb-2">
+            <a href="./iphone.html" class="text-decoration">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/iphone.png" class="img-fluid mb-2" alt="iphone">
+                        <span class="font-500 ">iPhone</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 col-sm-2" >
+            <a href="./watch.html" class="text-decoration">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/watch.png" class="img-fluid mb-2" alt="watch">
+                        <span class="font-500 ">Watch</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-6 col-sm-2 me-auto">
+            <a href="https://www.apple.com/in/apple-tv-4k/" class="text-decoration">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="./assets/images/appletv.png" class="img-fluid mb-2" alt="appletv">
+                        <span class="font-500 ">TV</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+       </div>
+    </section>
+
+    <section>
+        <div class="col-sm-9 p-5">
+            <h2 class="font-500 text-gray"><span class="text-black">The latest.</span> Take a look at what’s new right now.</h2>
+        </div>
+       <div class="row">
+        <div class="col-10 col-sm-3 mx-auto mb-3">
+            <a href="https://www.apple.com/in/shop/buy-iphone/iphone-15-pro" class="text-decoration">
+                <div class="card bg-black text-white">
+                    <div class="card-body p-3 font-400">
+                        <small class="font-500">IPHONE 15 PRO</small>
+                        <h2 class="font-500 pt-2">Titanium</h2>
+                        <p>From ₹134900</p>
+                        <img src="./assets/images/store-card-40-iphone-15-pro-202309.jpg" class="img-fluid" alt="iphone-15">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-10 col-sm-3 mx-auto mb-3">
+            <a href="https://www.apple.com/in/shop/buy-iphone/iphone-15" class="text-decoration">
+            <div class="card">
+                <div class="card-body p-3 font-400">
+                    <small class="font-500">IPHONE 15</small>
+                    <h2 class="font-500 pt-2">Newphoria</h2>
+                    <p>From ₹78000</p>
+                    <img src="./assets/images/store-card-40-iphone-15-202309.jpg" class="img-fluid" alt="iphone-15">
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-10 col-sm-3 mx-auto">
+            <a href="https://www.apple.com/in/shop/buy-mac/macbook-pro" class="text-decoration">
+            <div class="card">
+                <div class="card-body p-3 font-400">
+                    <small class="font-500">MACBOOK PRO 14"</small>
+                    <h2 class="font-500 pt-2">Mind-blowing</h2>
+                    <p>From ₹169900</p>
+                    <img src="./assets/images/store-card-40-macbook-pro-202310.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            </a>
+        </div>
+       </div> 
+    </section>
+
+    <hr class="my-5 mx-5">
+     
+    <section>
+        <a class="navbar-brand font-700 d-flex align-items-center ms-lg-5" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M17.05 20.28c-.98.95-2.05.8-3.08.35c-1.09-.46-2.09-.48-3.24 0c-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8c1.18-.24 2.31-.93 3.57-.84c1.51.12 2.65.72 3.4 1.8c-3.12 1.87-2.38 5.98.48 7.13c-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25c.29 2.58-2.34 4.5-3.74 4.25"
+              />
+            </svg>
+            <span class="ps-2">Apple Store</span>
+        </a>
+        <div class="row ms-lg-5 ">
+            <div class="col-sm-3">
+                <div class="mt-4">
+                    <h5 class="font-500">Shop</h5>
+                    <ul class="text-style pt-1 text-gray">
+                        <li>
+                            <a href="./mac.html" class="text-decoration">Mac</a>
+                        </li>
+                        <li>
+                            <a href="./iphone.html" class="text-decoration">iPhone</a>
+                        </li>
+                        <li>
+                            <a href="./watch.html" class="text-decoration">Watch</a>
+                        </li>
+                        <li>
+                            <a href="./tv.html" class="text-decoration">TV</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="mt-4">
+                    <h5 class="font-500">Mac</h5>
+                    <ul class="text-style pt-1 text-gray">
+                        <li>
+                            <a href="./macBookAir13.html" class="text-decoration">MacBook Air 13</a>
+                        </li>
+                        <li>
+                            <a href="./macBookAir14.html" class="text-decoration">MacBook Air 14</a>
+                        </li>
+                        <li>
+                            <a href="./macBookAir15.html" class="text-decoration">MacBook Air 15</a>
+                        </li>
+                        <li>
+                            <a href="./macBookAir16.html" class="text-decoration">MacBook Air 16</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="mt-4">
+                    <h5 class="font-500">iPhone</h5>
+                    <ul class="text-style pt-1 text-gray">
+                        <li>
+                            <a href="./iPhone14.html" class="text-decoration">iPhone 14</a>
+                        </li>
+                        <li>
+                            <a href="./iPhone14Pro.html" class="text-decoration">iPhone</a>
+                        </li>
+                        <li>
+                            <a href="./iPhone15.html" class="text-decoration">iPhone 15 </a>
+                        </li>
+                        <li>
+                            <a href="./iPhone15Pro.html" class="text-decoration">iPhone 15 Pro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="mt-4">
+                    <h5 class="font-500">Watch</h5>
+                    <ul class="text-style pt-1 text-gray">
+                        <li>
+                            <a href="./watchSE.html" class="text-decoration">Apple Watch SE</a>
+                        </li>
+                        <li>
+                            <a href="./watchseries9.html" class="text-decoration">Apple watch Series 9</a>
+                        </li>
+                        <li>
+                            <a href="./watchUltra.html" class="text-decoration">Apple Watch Ultra</a>
+                        </li>
+                        <li>
+                            <a href="./watchUltra2.html" class="text-decoration">iPhone 15 Pro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <footer class="pt-4 pb-1 text-center">
+        <span class="font-400">&copy; Copyright © 2024 Apple Inc. All rights reserved</span>
+    </footer>
+    <!-- javascript -->
+    <script src="./bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
